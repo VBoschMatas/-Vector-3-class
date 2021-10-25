@@ -21,7 +21,7 @@ float Vec3<T>::distance_to(Vec3 xyz) {
 	x_aux = x - xyz.x;
 	y_aux = y - xyz.y;
 	z_aux = z - xyz.z;
-	return sqrt(pow(x_aux, 2.0) + pow(y_aux, 2.0) + pow(y_aux, 2.0));
+	return sqrt(pow(x_aux, 2.0) + pow(y_aux, 2.0) + pow(z_aux, 2.0));
 }
 
 //Dot Product
