@@ -2,7 +2,7 @@
 
 //Operator +
 template <typename T>
-Vec3<T> Vec3<T>::operator+(Vec3 xyz) {
+Vec3<T> Vec3<T>::operator+(const Vec3& xyz) {
 	return Vec3<T>(x + xyz.x, y + xyz.y, z + xyz.z);
 }
 
